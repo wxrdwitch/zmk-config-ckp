@@ -8,16 +8,16 @@
 #define XXXXX none
 
 / {
-//	behaviors {
-//	           tog_mo: behavior_mo_tog {
-//          	   	   		    compatible = "zmk,behavior-hold-tap";
-//            	   			    label = "mo_tog";
-//		   			    #binding-cells = <2>;
-//		   			    flavor = "hold-preferred";
-//		   			    tapping-term-ms = <200>;
-//		   			    bindings = <&tog>, <&mo>;
-//	           };
-//	};
+	behaviors {
+	           tog_mo: behavior_mo_tog {
+          	   	   		    compatible = "zmk,behavior-hold-tap";
+            	   			    label = "mo_tog";
+		   			    #binding-cells = <2>;
+		   			    flavor = "hold-preferred";
+		   			    tapping-term-ms = <200>;
+		   			    bindings = <&tog>, <&mo>;
+	           };
+	};
     
 	keymap {
 		compatible = "zmk,keymap";
@@ -46,7 +46,7 @@
 				&kp TAB                 &kp Q  &kp D  &kp R  &kp W  &kp B  &kp J  &kp F  &kp U     &kp P   &kp SEMI &kp LBKT  &kp RBKT &kp BSLH
 				&kp CAPS                 &kp A  &kp S  &kp H  &kp T  &kp G  &kp Y  &kp N  &kp E     &kp O   &kp I    &kp SQT            &kp RET
 				&kp LSHFT &kp NON_US_BSLH &kp Z  &kp X  &kp M  &kp C  &kp V  &kp K  &kp L  &kp COMMA &kp DOT &kp FSLH &kp RSHFT  &lt 1 C_VOL_UP
-				&kp LCTRL &kp LCMD &kp LALT            &kp SPACE                       &mo 1 &kp RALT       &kp RCMD         &mt RCTRL C_VOL_DN
+				&kp LCTRL &kp LCMD &kp LALT            &kp SPACE                       &mo_tog 1 1 &kp RALT     &kp RCMD     &mt RCTRL C_VOL_DN
 			>;
 		};
 
@@ -119,8 +119,17 @@
 	};
 };
 
-// Here's a spare template for making your own cute diagrams <3
-// ilysm and I find it so sexy that you're looking at this xxxx
+// So yeah, that's your ZMK keyboard firmware configuration!
+// You'll probably want to start messing around quick, so you 
+// should bookmark the documentation https://zmk.dev/docs
+
+// You don't need to read the whole thing, probably the keycodes
+// and RGB underglow sections will be most interesting to you. 
+// Why not start by adding some keys to the above layer to 
+// change the colours?
+
+// Here's a spare template to copy for making your own cute diagrams
+// <3 ilysm and I find it so sexy that you're looking at this xxxx
 
 // ,------------------------------------------------------------.
 // |    |   |   |   |   |   |   |   |   |   |   |   |   |       |
