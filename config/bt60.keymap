@@ -112,7 +112,7 @@
 				&XXXXX      &XXXXX       &XXXXX       &kp C_VOL_UP &XXXXX       &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX     &XXXXX    &rgb_ug RGB_TOG
 				&XXXXX       &XXXXX       &kp C_PREV   &kp C_VOL_DN &kp C_NEXT   &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX              &bl BL_TOG
 				&XXXXX &XXXXX &XXXXX       &XXXXX       &kp C_MUTE   &XXXXX       &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX             &XXXXX &XXXXX
-				&XXXXX &XXXXX &XXXXX                        &C_PLAY_PAUSE                     &XXXXX        &XXXXX              &XXXXX               &XXXXX
+				&XXXXX &XXXXX &XXXXX                        &kp C_PLAY_PAUSE                  &XXXXX        &XXXXX              &XXXXX               &XXXXX
 			>;
 		};
 	};
