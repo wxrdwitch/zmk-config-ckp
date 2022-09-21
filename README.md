@@ -1,3 +1,13 @@
+# NERA!
+
+Heyyy, this is the repository (collection of files that get their changes tracked) for your initial configuration.
+
+But before we get any further, I want you to swith to the branch (place where relevant changes happen together) that is specific to your keyboard.
+If you look above this text on the left, you'll see a drop-down menu that says "main", and if you click it you'll get a litle list.
+One of the options is "BT60-nera", which is, believe it or don't, your branch, bb!
+
+Click on that, and I'll continue the discussion there <3
+
 # zmk-config
 This is the ZMK-Config repo for the Polarity works CKP series of keyboards, with this you can customise your layout and keymap to suit your exact needs.
 We have provided base keymaps for the following layouts on the soldered version: ANSI, ISO, Tsangan and all 1u keys. These can be accessed by choosing the appropriate branch. The hotswap versions now use the exact same firmware as the soldered ones making it harder to end up with an unusable board.
