@@ -90,7 +90,7 @@
 			>;
 		};
 
-		media_and_kb_settings {
+//		media_and_kb_settings {
 		
 // Basically, cutie, this layer has all your experience-related
 // things, like changing the bluetooth device, adjusting volume and
@@ -107,14 +107,14 @@
 // |     |     |     |        ⏯         |   |     |      |      | 8
 // '------------------------------------------------------------'
 
-			bindings = <
-				&bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &bl BL_DEC &bl BL_INC &bootloader
-				&XXXXX      &XXXXX       &XXXXX       &kp C_VOL_UP &XXXXX       &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX     &XXXXX    &rgb_ug RGB_TOG
-				&XXXXX       &XXXXX       &kp C_PREV   &kp C_VOL_DN &kp C_NEXT   &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX              &bl BL_TOG
-				&XXXXX &XXXXX &XXXXX       &XXXXX       &kp C_MUTE   &XXXXX       &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX             &XXXXX &XXXXX
-				&XXXXX &XXXXX &XXXXX                        &C_PLAY_PAUSE                     &XXXXX        &XXXXX              &XXXXX               &XXXXX
-			>;
-		};
+//			bindings = <
+//				&bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &bl BL_DEC &bl BL_INC &bootloader
+//				&XXXXX      &XXXXX       &XXXXX       &kp C_VOL_UP &XXXXX       &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX     &XXXXX    &rgb_ug RGB_TOG
+//				&XXXXX       &XXXXX       &kp C_PREV   &kp C_VOL_DN &kp C_NEXT   &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX              &bl BL_TOG
+//				&XXXXX &XXXXX &XXXXX       &XXXXX       &kp C_MUTE   &XXXXX       &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX             &XXXXX &XXXXX
+//				&XXXXX &XXXXX &XXXXX                        &C_PLAY_PAUSE                     &XXXXX        &XXXXX              &XXXXX               &XXXXX
+//			>;
+//		};
 	};
 };
 
