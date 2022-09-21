@@ -86,11 +86,11 @@
 				&kp TAB      &kp ESC  &kp HOME &kp UP   &kp END   &kp PG_UP &XXXXX    &XXXXX &kp INS &XXXXX &kp PSCRN  &XXXXX   &XXXXX   &kp PAUSE_BREAK
 				&XXXXX       &XXXXX   &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &XXXXX    &XXXXX &XXXXX  &XXXXX &kp SLCK   &XXXXX            &_____
 				&_____ &XXXXX&kp BSPC &XXXXX   &kp DEL  &XXXXX    &XXXXX    &kp K_APP &XXXXX &XXXXX  &XXXXX &XXXXX              &_____   &_____
-				&_____  &_____ &_____                       &_____                    &_____           &_____        &_____             &_____
+				&_____  &_____ &_____                       &_____                    &_____           &_____        &_____              &_____
 			>;
 		};
 
-//		media_and_kb_settings {
+		media_and_kb_settings {
 		
 // Basically, cutie, this layer has all your experience-related
 // things, like changing the bluetooth device, adjusting volume and
