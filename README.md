@@ -2,9 +2,9 @@
 
 Heyyy, this is the repository (collection of files that get their changes tracked) for your initial configuration.
 
-But before we get any further, I want you to swith to the branch (place where relevant changes happen together) that is specific to your keyboard.
+But before we get any further, I want you to switch to the branch (place where relevant changes happen together) that is specific to your keyboard.
 If you look above this text on the left, you'll see a drop-down menu that says "main", and if you click it you'll get a litle list.
-One of the options is "BT60-nera", which is, believe it or don't, your branch, bb!
+One of the options is "bt60-nera", which is, believe it or don't, your branch, bb!
 
 Click on that, and I'll continue the discussion there <3
 
