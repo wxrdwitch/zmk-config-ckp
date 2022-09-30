@@ -45,7 +45,7 @@
 				&kp ESC                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8    &kp N9  &kp N0   &kp MINUS &kp EQUAL &kp BSPC
 				&kp TAB                 &kp Q  &kp D  &kp R  &kp W  &kp B  &kp J  &kp F  &kp U     &kp P   &kp SEMI &kp LBKT  &kp RBKT &kp BSLH
 				&kp CAPS                 &kp A  &kp S  &kp H  &kp T  &kp G  &kp Y  &kp N  &kp E     &kp O   &kp I    &kp SQT            &kp RET
-				&kp LSHFT &kp NON_US_BSLH &kp Z  &kp X  &kp M  &kp C  &kp V  &kp K  &kp L  &kp COMMA &kp DOT &kp FSLH &XXXXX  &lt 2 C_VOL_UP
+				&kp LSHFT &kp NON_US_BSLH &kp Z  &kp X  &kp M  &kp C  &kp V  &kp K  &kp L  &kp COMMA &kp DOT &kp FSLH &kp RSHFT  &lt 2 C_VOL_UP
 				&kp LCTRL &kp LCMD &kp LALT            &kp SPACE                       &mo 1 &kp RALT     &kp RCMD     &mt RCTRL C_VOL_DN
 			>;
 		};
