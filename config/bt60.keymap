@@ -45,7 +45,7 @@
 				&kp ESC                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8    &kp N9  &kp N0   &kp MINUS &kp EQUAL &kp BSPC
 				&kp TAB                 &kp Q  &kp D  &kp R  &kp W  &kp B  &kp J  &kp F  &kp U     &kp P   &kp SEMI &kp LBKT  &kp RBKT &kp BSLH
 				&kp CAPS                 &kp A  &kp S  &kp H  &kp T  &kp G  &kp Y  &kp N  &kp E     &kp O   &kp I    &kp SQT            &kp RET
-				&kp LSHFT &kp NON_US_BSLH &kp Z  &kp X  &kp M  &kp C  &kp V  &kp K  &kp L  &kp COMMA &kp DOT &kp FSLH &none  &lt 2 C_VOL_UP
+				&kp LSHFT &kp NON_US_BSLH &kp Z  &kp X  &kp M  &kp C  &kp V  &kp K  &kp L  &kp COMMA &kp DOT &kp FSLH &XXXXX  &lt 2 C_VOL_UP
 				&kp LCTRL &kp LCMD &kp LALT            &kp SPACE                       &mo 1 &kp RALT     &kp RCMD     &mt RCTRL C_VOL_DN
 			>;
 		};
@@ -101,17 +101,17 @@
 // layer.
 
 // ,------------------------------------------------------------. 
-// |clr |bt1|bt2|bt3|bt4|bt5|   |   |   |   |   |   |   |  BOOT | 14
-// |     |   |   |vo↑|   |br↑|   |   |   |   |   |   |   |  rgb | 14
-// |      |   |prv|vo↓|nxt|br↓|   |   |   |   |   |   |backlight| 13
+// |clr |bt1|bt2|bt3|bt4|bt5|   |   |   |   |   |br-|br+|  BOOT | 14
+// |     |   |   |vo↑|   |br↑|   |   |   |   |   |hu-|hu+|  rgb | 14
+// |      |   |prv|vo↓|nxt|br↓|   |   |   |   |sa-|sa+|green HSB| 13
 // |   |   |   |   |mut|   |   |   |   |   |   |   |       |####| 14
 // |     |     |     |        ⏯         |   |     |      |      | 8
 // '------------------------------------------------------------'
 
 			bindings = <
-				&bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &bl BL_DEC &bl BL_INC &bootloader
-				&XXXXX      &XXXXX       &XXXXX       &kp C_VOL_UP &XXXXX       &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX     &XXXXX    &rgb_ug RGB_TOG
-				&XXXXX       &XXXXX       &kp C_PREV   &kp C_VOL_DN &kp C_NEXT   &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX              &bl BL_TOG
+				&bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &rgb_ug RGB_BRD &rgb_ug RGB_BRI &bootloader
+				&XXXXX      &XXXXX       &XXXXX       &kp C_VOL_UP &XXXXX       &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_TOG
+				&XXXXX       &XXXXX       &kp C_PREV   &kp C_VOL_DN &kp C_NEXT   &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &rgb_ug RGB_SAD &rgb_ug RGB_SAI       &rgb_ug RGB_COLOR_HSB(128,100,100)
 				&XXXXX &XXXXX &XXXXX       &XXXXX       &kp C_MUTE   &XXXXX       &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX             &XXXXX &XXXXX
 				&XXXXX &XXXXX &XXXXX                        &kp C_PLAY_PAUSE                  &XXXXX        &XXXXX              &XXXXX               &XXXXX
 			>;
