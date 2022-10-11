@@ -3,10 +3,17 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>																															
 
 #define _____ trans
 #define XXXXX none
+
+&mmv {
+	time-to-max-speed-ms = <200>;
+	acceleration-exponent=<2>;
+	
+};
+
 
 / {
 	behaviors {
@@ -131,8 +138,8 @@
 
 	bindings = <
 				&XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX
-				&XXXXX &XXXXX       &XXXXX       &XXXXX &XXXXX       &XXXXX       &mwh SCROLL_UP &mwh SCROLL_LEFT &mmv MOVE_UP &mwh SCROLL_RIGHT &XXXXX &XXXXX &XXXXX &XXXXX
-				&XXXXX &XXXXX       &mkp RCLK   &mkp MCLK &mkp LCLK &XXXXX       &mwh SCROLL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &XXXXX &XXXXX       &XXXXX
+				&XXXXX &XXXXX       &XXXXX       &XXXXX &XXXXX       &XXXXX       &mwh SCROLL_DOWN &mwh SCROLL_RIGHT &mmv MOVE_UP &mwh SCROLL_LEFT &XXXXX &XXXXX &XXXXX &XXXXX
+				&XXXXX &XXXXX       &mkp RCLK   &mkp MCLK &mkp LCLK &XXXXX       &mwh SCROLL_UP &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &XXXXX &XXXXX       &XXXXX
 				&XXXXX &XXXXX &XXXXX       &XXXXX       &XXXXX	&XXXXX       &XXXXX       &XXXXX &XXXXX &XXXXX &XXXXX &XXXXX             &XXXXX &XXXXX
 				&XXXXX &XXXXX &XXXXX                        &XXXXX                  &XXXXX        &XXXXX              &XXXXX               &XXXXX
 			>;
